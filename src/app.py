@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 
 
+def teste_unit():
+    print('shit')
+    return None
+
+    
 def load():
     print('realiza a carga dos dados dentro do banco de dados...')
     return None
