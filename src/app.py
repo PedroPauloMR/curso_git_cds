@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+def teste():
+    print('realiza teste unit...')
+    return None
 
 def teste_unit():
     print('shit')
