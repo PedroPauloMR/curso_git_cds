@@ -7,7 +7,7 @@ def load():
     print('realiza a carga dos dados dentro do banco de dados...')
     return None
 
-    
+
 def transformation():
     print('realiza a transformação dos dados...')
     return None
@@ -20,6 +20,9 @@ def extraction():
 
 def main():
     print('hello world')
+    extraction()
+    transformation()
+    load()
     return None
 
 
